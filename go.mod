@@ -1,11 +1,12 @@
-module github.com/go-openapi/spec
+module github.com/legenove/spec4pb
+
+go 1.14
 
 require (
 	github.com/go-openapi/jsonpointer v0.19.3
 	github.com/go-openapi/jsonreference v0.19.4
-	github.com/go-openapi/swag v0.19.5
-	github.com/stretchr/testify v1.3.0
-	gopkg.in/yaml.v2 v2.2.4
+	github.com/go-openapi/spec v0.19.9
+	github.com/go-openapi/swag v0.19.9
+	github.com/stretchr/testify v1.6.1
+	gopkg.in/yaml.v2 v2.3.0
 )
-
-go 1.13
