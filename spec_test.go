@@ -22,8 +22,8 @@ import (
 	"strings"
 	"testing"
 
-	spec "github.com/legenove/spec4pb"
 	"github.com/go-openapi/swag"
+	spec "github.com/legenove/spec4pb"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

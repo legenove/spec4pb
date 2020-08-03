@@ -29,6 +29,7 @@ const (
 // SimpleSchema describe swagger simple schemas for parameters and headers
 type SimpleSchema struct {
 	Type             string      `json:"type,omitempty"`
+	Score            int32       `json:"score,omitempty"`
 	Nullable         bool        `json:"nullable,omitempty"`
 	Format           string      `json:"format,omitempty"`
 	Items            *Items      `json:"items,omitempty"`

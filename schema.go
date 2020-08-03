@@ -215,6 +215,7 @@ type Schema struct {
 	VendorExtensible
 	SchemaProps
 	SwaggerSchemaProps
+	Score int32 `json:"score,omitempty"`
 	ExtraProps map[string]interface{} `json:"-"`
 }
 
