@@ -9,8 +9,6 @@ github.com/go-openapi/jsonpointer v0.19.3 h1:gihV7YNZK1iK6Tgwwsxo2rJbD1GTbdm7232
 github.com/go-openapi/jsonpointer v0.19.3/go.mod h1:Pl9vOtqEWErmShwVjC8pYs9cog34VGT37dQOVbmoatg=
 github.com/go-openapi/jsonreference v0.19.4 h1:3Vw+rh13uq2JFNxgnMTGE1rnoieU9FmyE1gvnyylsYg=
 github.com/go-openapi/jsonreference v0.19.4/go.mod h1:RdybgQwPxbL4UEjuAruzK1x3nE69AqPYEJeo/TWfEeg=
-github.com/go-openapi/spec v0.19.9 h1:9z9cbFuZJ7AcvOHKIY+f6Aevb4vObNDkTEyoMfO7rAc=
-github.com/go-openapi/spec v0.19.9/go.mod h1:vqK/dIdLGCosfvYsQV3WfC7N3TiZSnGY2RZKoFK7X28=
 github.com/go-openapi/swag v0.19.5/go.mod h1:POnQmlKehdgb5mhVOsnJFsivZCEZ/vjK9gh66Z9tfKk=
 github.com/go-openapi/swag v0.19.9 h1:1IxuqvBUU3S2Bi4YC7tlP9SJF1gVpCvqN0T2Qof4azE=
 github.com/go-openapi/swag v0.19.9/go.mod h1:ao+8BpOPyKdpQz3AOJfbeEVpLmWAvlT1IfTe5McPyhY=
