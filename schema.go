@@ -163,6 +163,7 @@ type SchemaProps struct {
 	Schema               SchemaURL        `json:"-"`
 	Description          string           `json:"description,omitempty"`
 	Type                 StringOrArray    `json:"type,omitempty"`
+	FieldNumber          int32            `json:"fieldNumber,omitempty"`
 	Nullable             bool             `json:"nullable,omitempty"`
 	Format               string           `json:"format,omitempty"`
 	Title                string           `json:"title,omitempty"`
@@ -215,7 +216,6 @@ type Schema struct {
 	VendorExtensible
 	SchemaProps
 	SwaggerSchemaProps
-	FieldNumber int32 `json:"fieldNumber,omitempty"`
 	ExtraProps map[string]interface{} `json:"-"`
 }
 
